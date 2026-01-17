@@ -1,6 +1,6 @@
 # 🔍 Поиск Утечек Данных (Data Leak Locator)
 
-![Build & Test](https://github.com/rkhakov/data-leak-locator/actions/workflows/build.yml/badge.svg)
+![Build & Test](https://github.com/Kacebover/data-leak-locator1/actions/workflows/build.yml/badge.svg)
 
 Высокопроизводительное кросс-платформенное приложение на Go для поиска секретов, учётных данных и конфиденциальной информации в файлах. Включает CLI и GUI интерфейсы с обнаружением по regex-паттернам, анализом энтропии и оценкой рисков.
 
@@ -75,8 +75,8 @@ sudo apt-get install gcc libgl1-mesa-dev xorg-dev
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/rkhakov/data-leak-locator.git
-cd data-leak-locator
+git clone https://github.com/Kacebover/data-leak-locator1.git
+cd data-leak-locator1
 ```
 
 ### 2. Установка зависимостей
