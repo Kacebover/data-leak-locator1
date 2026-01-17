@@ -1,0 +1,2 @@
+Subdirectory file with password in it.
+My secret password is 123456.

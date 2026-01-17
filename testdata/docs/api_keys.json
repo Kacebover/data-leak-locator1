@@ -1,0 +1,22 @@
+{
+  "name": "Production API Keys",
+  "environment": "production",
+  "keys": {
+    "google_api_key": "AIzaSyDaGmWKa4JsXZ-HjGw7ISLn_3namBGewQe",
+    "github_token": "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "slack_webhook": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX",
+    "jwt_secret": "super-secret-jwt-key-that-should-not-be-here-12345",
+    "encryption_key": "aes256-key-1234567890abcdef"
+  },
+  "database": {
+    "host": "db.production.internal",
+    "port": 5432,
+    "username": "admin",
+    "password": "Pr0duct10n_P@ssw0rd!"
+  },
+  "oauth": {
+    "client_id": "123456789012-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com",
+    "client_secret": "GOCSPX-abcdefghij1234567890"
+  }
+}
+

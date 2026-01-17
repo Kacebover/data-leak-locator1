@@ -1,0 +1,51 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build output
+dist/
+build/
+bin/
+
+# Project binaries
+data-leak-locator
+data-leak-locator-gui
+*.exe
+data-leak-locator.exe
+data-leak-locator-gui.exe
+test_empty/
+testdata_tmp/
+
+# Environment files
+.env
+.env.local
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+reports/

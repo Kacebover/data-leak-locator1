@@ -1,0 +1,41 @@
+# Application Configuration
+# Contains various secrets for testing detection
+
+app:
+  name: MyApplication
+  environment: production
+  debug: false
+
+database:
+  host: db.example.com
+  port: 5432
+  username: app_user
+  password: yaml_secret_pass_123!
+  ssl_mode: require
+
+redis:
+  host: redis.example.com
+  port: 6379
+  password: redis_password_456
+
+aws:
+  region: us-east-1
+  access_key: AKIAIOSFODNN7EXAMPLE
+  secret_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
+api:
+  google_maps_key: AIzaSyC9_fGhZ7Kx2mNpQRsTuVwXyZ0123456789
+  stripe_api_key: sk_test_1234567890abcdefghijklmno
+  twilio_auth_token: abcdef1234567890abcdef1234567890
+
+email:
+  smtp_host: smtp.example.com
+  smtp_port: 587
+  smtp_user: noreply@example.com
+  smtp_password: email_smtp_secret
+
+security:
+  encryption_key: aes256_encryption_key_32_chars!!
+  signing_secret: hmac_signing_secret_key_here
+  api_token: bearer_token_1234567890abcdef
+
